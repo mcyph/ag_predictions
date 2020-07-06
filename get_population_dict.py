@@ -1,7 +1,7 @@
 import csv
 
 
-def get_population(country, from_year, to_year):
+def get_population_dict(country, from_year, to_year):
     """
     Get the population of a country
 
@@ -12,7 +12,7 @@ def get_population(country, from_year, to_year):
     :return: a two-tuple of ((year, population), ...)
     """
 
-    r = []
+    r = {}
 
     with open('data/world_bank_popdata.csv', 'r', encoding='utf-8-sig') as f:
         for item in csv.DictReader(f):
@@ -29,13 +29,7 @@ def get_population(country, from_year, to_year):
                 if not (from_year <= int(k) <= to_year):
                     continue
 
-                r.append((int(k), int(v)))
+                r[int(k)] = int(v)
 
     return r
 
-
-if __name__ == '__main__':
-    from print_table import print_table
-
-    print_table(('year', 'population'), get_population('United States', 2010, 2019))
-    print_table(('year', 'population'), get_population('Australia', 2010, 2019))
