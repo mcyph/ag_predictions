@@ -9,7 +9,7 @@ def get_population_dict(country, from_year, to_year):
                     e.g. "Australia" or "United States"
     :param from_year:
     :param to_year:
-    :return: a two-tuple of ((year, population), ...)
+    :return: a dict of {year: population, ...}
     """
 
     r = {}

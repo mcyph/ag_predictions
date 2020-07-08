@@ -9,8 +9,8 @@ def get_production_ktons_dict(country, from_year, to_year, item_name):
                     e.g. "Australia" or "United States"
     :param from_year:
     :param to_year:
-    :param item_name:
-    :return: a two-tuple of ((year, production amount in ktonnes), ...)
+    :param item_name: e.g. "Maize"
+    :return: a dict of {year: production amount in ktonnes, ...}
     """
     r = {}
 
