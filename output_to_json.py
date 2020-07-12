@@ -82,6 +82,7 @@ if __name__ == '__main__':
             ('Sorghum', 'Sorghum'),
             ('Maize', 'Corn'),
             ('Wheat', 'Wheat'),
+            ('Barley', 'Barley'),
         ):
             print(country+'\t'+grain)
 

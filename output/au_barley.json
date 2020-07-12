@@ -1,0 +1,61 @@
+{
+    "country": "au",
+    "crop": "Barley",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 9253852,
+            "priceUSD": 183.8,
+            "totalValueUSD": 1700857997.6000001
+        },
+        {
+            "year": 2017,
+            "quantity": 13505990,
+            "priceUSD": 151.0,
+            "totalValueUSD": 2039404490.0
+        },
+        {
+            "year": 2016,
+            "quantity": 8992274,
+            "priceUSD": 188.1,
+            "totalValueUSD": 1691446739.3999999
+        },
+        {
+            "year": 2015,
+            "quantity": 8646321,
+            "priceUSD": 210.4,
+            "totalValueUSD": 1819185938.4
+        },
+        {
+            "year": 2014,
+            "quantity": 9174417,
+            "priceUSD": 240.7,
+            "totalValueUSD": 2208282171.9
+        },
+        {
+            "year": 2013,
+            "quantity": 7471592,
+            "priceUSD": 266.4,
+            "totalValueUSD": 1990432108.7999997
+        },
+        {
+            "year": 2012,
+            "quantity": 8220863,
+            "priceUSD": 217.4,
+            "totalValueUSD": 1787215616.2
+        },
+        {
+            "year": 2011,
+            "quantity": 7994720,
+            "priceUSD": 222.8,
+            "totalValueUSD": 1781223616.0
+        },
+        {
+            "year": 2010,
+            "quantity": 7864551,
+            "priceUSD": 157.8,
+            "totalValueUSD": 1241026147.8000002
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "country": "us",
+    "crop": "Barley",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 3332970,
+            "priceUSD": null,
+            "totalValueUSD": null
+        },
+        {
+            "year": 2017,
+            "quantity": 3119070,
+            "priceUSD": 204.0,
+            "totalValueUSD": 636290280.0
+        },
+        {
+            "year": 2016,
+            "quantity": 4352610,
+            "priceUSD": 228.0,
+            "totalValueUSD": 992395080.0
+        },
+        {
+            "year": 2015,
+            "quantity": 4665770,
+            "priceUSD": 254.0,
+            "totalValueUSD": 1185105580.0
+        },
+        {
+            "year": 2014,
+            "quantity": 3952610,
+            "priceUSD": 243.0,
+            "totalValueUSD": 960484230.0
+        },
+        {
+            "year": 2013,
+            "quantity": 4719070,
+            "priceUSD": 278.0,
+            "totalValueUSD": 1311901460.0
+        },
+        {
+            "year": 2012,
+            "quantity": 4767940,
+            "priceUSD": 295.0,
+            "totalValueUSD": 1406542300.0
+        },
+        {
+            "year": 2011,
+            "quantity": 3370110,
+            "priceUSD": 246.0,
+            "totalValueUSD": 829047060.0
+        },
+        {
+            "year": 2010,
+            "quantity": 3924280,
+            "priceUSD": 177.0,
+            "totalValueUSD": 694597560.0
+        }
+    ]
+}
