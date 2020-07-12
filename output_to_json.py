@@ -31,6 +31,7 @@ def __output_population_json(iso_code, population_dict):
 def __output_crop_json(iso_code, normalized_grain,
                        producer_price_dict,
                        production_ktons_dict,
+                       import_export_dict,
                        usd_gross_dict):
     """
 
@@ -48,6 +49,7 @@ def __output_crop_json(iso_code, normalized_grain,
         years.update(producer_price_dict)
         years.update(production_ktons_dict)
         years.update(usd_gross_dict)
+        years.update(import_export_dict)
 
         output = {
             'country': iso_code,
@@ -61,6 +63,15 @@ def __output_crop_json(iso_code, normalized_grain,
                     'totalValueUSD': usd_gross_dict.get(year)
                 }
                 for year in sorted(years, reverse=True)
+            ],
+            'trade': [
+                {
+                    'year': year,
+                    'import': import_export_dict[year].import_quantity,
+                    'export': import_export_dict[year].export_quantity
+                }
+                for year in sorted(years, reverse=True)
+                if year in import_export_dict
             ]
         }
         f.write(json.dumps(
@@ -72,17 +83,21 @@ if __name__ == '__main__':
     from get_population_dict import get_population_dict
     from get_producer_price_dict import get_producer_price_dict
     from get_production_tons_dict import get_production_tons_dict
+    from get_import_export_dict import get_import_export_dict
 
     for country, iso_code in (
         ('Australia', 'au'),
         ('United States of America', 'us'),
     ):
-        for grain, normalized_grain in (
-            ('Rice, paddy', 'Rice'),
-            ('Sorghum', 'Sorghum'),
-            ('Maize', 'Corn'),
-            ('Wheat', 'Wheat'),
-            ('Barley', 'Barley'),
+        for grain, import_export_grain, normalized_grain in (
+            # grain -> what it's called for the producer/production CSV file
+            # import_export_grain -> what it's called for the import/export CSV file
+            # normalized_grain -> what we want to call it
+            ('Rice, paddy', 'Rice - total  (Rice milled equivalent)', 'Rice'),
+            ('Sorghum', 'Sorghum', 'Sorghum'),
+            ('Maize', 'Maize', 'Corn'),
+            ('Wheat', 'Wheat', 'Wheat'),
+            ('Barley', 'Barley', 'Barley'),
         ):
             print(country+'\t'+grain)
 
@@ -92,6 +107,7 @@ if __name__ == '__main__':
                 year: producer_price_dict[year] * production_tons_dict[year]
                 for year in producer_price_dict
             }
+            import_export_dict = get_import_export_dict(country, 2010, 2019, import_export_grain)
             population_dict = get_population_dict(country.replace(' of America', ''), 2010, 2019)
 
             __output_population_json(
@@ -101,5 +117,6 @@ if __name__ == '__main__':
                 iso_code, normalized_grain,
                 producer_price_dict,
                 production_tons_dict,
+                import_export_dict,
                 usd_gross_dict
             )

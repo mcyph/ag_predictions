@@ -57,5 +57,47 @@
             "priceUSD": 179.8,
             "totalValueUSD": 271072773.0
         }
+    ],
+    "trade": [
+        {
+            "year": 2017,
+            "import": 2.0,
+            "export": 292628.0
+        },
+        {
+            "year": 2016,
+            "import": 7.0,
+            "export": 801452.0
+        },
+        {
+            "year": 2015,
+            "import": 3.0,
+            "export": 1531668.0
+        },
+        {
+            "year": 2014,
+            "import": null,
+            "export": 358613.0
+        },
+        {
+            "year": 2013,
+            "import": 0.0,
+            "export": 797003.0
+        },
+        {
+            "year": 2012,
+            "import": 17.0,
+            "export": 1270187.0
+        },
+        {
+            "year": 2011,
+            "import": 4.0,
+            "export": 705738.0
+        },
+        {
+            "year": 2010,
+            "import": 0.0,
+            "export": 297220.0
+        }
     ]
 }
