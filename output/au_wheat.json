@@ -1,0 +1,61 @@
+{
+    "country": "au",
+    "crop": "Wheat",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 20941134,
+            "priceUSD": 203.2,
+            "totalValueUSD": 4255238428.7999997
+        },
+        {
+            "year": 2017,
+            "quantity": 31818744,
+            "priceUSD": 177.0,
+            "totalValueUSD": 5631917688.0
+        },
+        {
+            "year": 2016,
+            "quantity": 22274514,
+            "priceUSD": 205.9,
+            "totalValueUSD": 4586322432.6
+        },
+        {
+            "year": 2015,
+            "quantity": 23742560,
+            "priceUSD": 225.4,
+            "totalValueUSD": 5351573024.0
+        },
+        {
+            "year": 2014,
+            "quantity": 25303037,
+            "priceUSD": 284.8,
+            "totalValueUSD": 7206304937.6
+        },
+        {
+            "year": 2013,
+            "quantity": 22855576,
+            "priceUSD": 302.2,
+            "totalValueUSD": 6906955067.2
+        },
+        {
+            "year": 2012,
+            "quantity": 29905009,
+            "priceUSD": 235.0,
+            "totalValueUSD": 7027677115.0
+        },
+        {
+            "year": 2011,
+            "quantity": 27410076,
+            "priceUSD": 265.1,
+            "totalValueUSD": 7266411147.6
+        },
+        {
+            "year": 2010,
+            "quantity": 21834010,
+            "priceUSD": 200.0,
+            "totalValueUSD": 4366802000.0
+        }
+    ]
+}

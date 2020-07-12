@@ -1,0 +1,61 @@
+{
+    "country": "us",
+    "crop": "Rice",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 10170040,
+            "priceUSD": null,
+            "totalValueUSD": null
+        },
+        {
+            "year": 2017,
+            "quantity": 8084290,
+            "priceUSD": 276.0,
+            "totalValueUSD": 2231264040.0
+        },
+        {
+            "year": 2016,
+            "quantity": 10167050,
+            "priceUSD": 229.0,
+            "totalValueUSD": 2328254450.0
+        },
+        {
+            "year": 2015,
+            "quantity": 8724530,
+            "priceUSD": 269.0,
+            "totalValueUSD": 2346898570.0
+        },
+        {
+            "year": 2014,
+            "quantity": 10079500,
+            "priceUSD": 295.0,
+            "totalValueUSD": 2973452500.0
+        },
+        {
+            "year": 2013,
+            "quantity": 8616120,
+            "priceUSD": 359.0,
+            "totalValueUSD": 3093187080.0
+        },
+        {
+            "year": 2012,
+            "quantity": 9069080,
+            "priceUSD": 333.0,
+            "totalValueUSD": 3020003640.0
+        },
+        {
+            "year": 2011,
+            "quantity": 8388780,
+            "priceUSD": 320.0,
+            "totalValueUSD": 2684409600.0
+        },
+        {
+            "year": 2010,
+            "quantity": 11027010,
+            "priceUSD": 280.0,
+            "totalValueUSD": 3087562800.0
+        }
+    ]
+}

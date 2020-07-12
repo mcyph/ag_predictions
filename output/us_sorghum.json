@@ -1,0 +1,61 @@
+{
+    "country": "us",
+    "crop": "Sorghum",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 9271070,
+            "priceUSD": null,
+            "totalValueUSD": null
+        },
+        {
+            "year": 2017,
+            "quantity": 9191950,
+            "priceUSD": 125.0,
+            "totalValueUSD": 1148993750.0
+        },
+        {
+            "year": 2016,
+            "quantity": 12199190,
+            "priceUSD": 110.0,
+            "totalValueUSD": 1341910900.0
+        },
+        {
+            "year": 2015,
+            "quantity": 15158170,
+            "priceUSD": 130.0,
+            "totalValueUSD": 1970562100.0
+        },
+        {
+            "year": 2014,
+            "quantity": 10987910,
+            "priceUSD": 159.0,
+            "totalValueUSD": 1747077690.0
+        },
+        {
+            "year": 2013,
+            "quantity": 9965670,
+            "priceUSD": 168.0,
+            "totalValueUSD": 1674232560.0
+        },
+        {
+            "year": 2012,
+            "quantity": 6292940,
+            "priceUSD": 249.0,
+            "totalValueUSD": 1566942060.0
+        },
+        {
+            "year": 2011,
+            "quantity": 5410270,
+            "priceUSD": 236.0,
+            "totalValueUSD": 1276823720.0
+        },
+        {
+            "year": 2010,
+            "quantity": 8775190,
+            "priceUSD": 198.0,
+            "totalValueUSD": 1737487620.0
+        }
+    ]
+}

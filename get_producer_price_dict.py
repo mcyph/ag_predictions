@@ -10,7 +10,7 @@ def get_producer_price_dict(country, from_year, to_year, item_name):
     :param from_year:
     :param to_year:
     :param item_name: e.g. "Rice, Paddy"
-    :return: a dict of {year: production amount in ktonnes, ...}
+    :return: a dict of {year: production amount in tonnes, ...}
     """
     r = {}
 
@@ -23,7 +23,7 @@ def get_producer_price_dict(country, from_year, to_year, item_name):
             elif item['Item'].lower() != item_name.lower():
                 continue
 
-            r[int(item['Year'])] = float(item['Value'])*1000
+            r[int(item['Year'])] = float(item['Value'])
 
     return r
 

@@ -1,7 +1,7 @@
 import csv
 
 
-def get_production_ktons_dict(country, from_year, to_year, item_name):
+def get_production_tons_dict(country, from_year, to_year, item_name):
     """
     Get production in kilotonnes between from_year and to_year inclusive
 
@@ -23,7 +23,7 @@ def get_production_ktons_dict(country, from_year, to_year, item_name):
             elif item['Item'].lower() != item_name.lower():
                 continue
 
-            r[int(item['Year'])] = int(item['Value']) / 1000.0
+            r[int(item['Year'])] = int(item['Value'])
 
     return r
 

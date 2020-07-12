@@ -1,0 +1,61 @@
+{
+    "country": "au",
+    "crop": "Sorghum",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 1257219,
+            "priceUSD": 232.4,
+            "totalValueUSD": 292177695.6
+        },
+        {
+            "year": 2017,
+            "quantity": 994001,
+            "priceUSD": 182.4,
+            "totalValueUSD": 181305782.4
+        },
+        {
+            "year": 2016,
+            "quantity": 1790574,
+            "priceUSD": 204.4,
+            "totalValueUSD": 365993325.6
+        },
+        {
+            "year": 2015,
+            "quantity": 2209173,
+            "priceUSD": 226.1,
+            "totalValueUSD": 499494015.3
+        },
+        {
+            "year": 2014,
+            "quantity": 1282042,
+            "priceUSD": 270.4,
+            "totalValueUSD": 346664156.79999995
+        },
+        {
+            "year": 2013,
+            "quantity": 2229709,
+            "priceUSD": 243.3,
+            "totalValueUSD": 542488199.7
+        },
+        {
+            "year": 2012,
+            "quantity": 2238912,
+            "priceUSD": 195.7,
+            "totalValueUSD": 438155078.4
+        },
+        {
+            "year": 2011,
+            "quantity": 1934510,
+            "priceUSD": 219.7,
+            "totalValueUSD": 425011847.0
+        },
+        {
+            "year": 2010,
+            "quantity": 1507635,
+            "priceUSD": 179.8,
+            "totalValueUSD": 271072773.0
+        }
+    ]
+}

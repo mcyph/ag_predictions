@@ -1,0 +1,61 @@
+{
+    "country": "us",
+    "crop": "Corn",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 392450840,
+            "priceUSD": null,
+            "totalValueUSD": null
+        },
+        {
+            "year": 2017,
+            "quantity": 397602890,
+            "priceUSD": 130.0,
+            "totalValueUSD": 51688375700.0
+        },
+        {
+            "year": 2016,
+            "quantity": 412262180,
+            "priceUSD": 132.0,
+            "totalValueUSD": 54418607760.0
+        },
+        {
+            "year": 2015,
+            "quantity": 345486340,
+            "priceUSD": 142.0,
+            "totalValueUSD": 49059060280.0
+        },
+        {
+            "year": 2014,
+            "quantity": 361091140,
+            "priceUSD": 146.0,
+            "totalValueUSD": 52719306440.0
+        },
+        {
+            "year": 2013,
+            "quantity": 351271870,
+            "priceUSD": 176.0,
+            "totalValueUSD": 61823849120.0
+        },
+        {
+            "year": 2012,
+            "quantity": 273192400,
+            "priceUSD": 271.0,
+            "totalValueUSD": 74035140400.0
+        },
+        {
+            "year": 2011,
+            "quantity": 312788890,
+            "priceUSD": 245.0,
+            "totalValueUSD": 76633278050.0
+        },
+        {
+            "year": 2010,
+            "quantity": 315617920,
+            "priceUSD": 204.0,
+            "totalValueUSD": 64386055680.0
+        }
+    ]
+}

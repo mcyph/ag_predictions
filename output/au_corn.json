@@ -1,0 +1,61 @@
+{
+    "country": "au",
+    "crop": "Corn",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 387240,
+            "priceUSD": 251.8,
+            "totalValueUSD": 97507032.0
+        },
+        {
+            "year": 2017,
+            "quantity": 436194,
+            "priceUSD": 245.3,
+            "totalValueUSD": 106998388.2
+        },
+        {
+            "year": 2016,
+            "quantity": 400032,
+            "priceUSD": 242.3,
+            "totalValueUSD": 96927753.60000001
+        },
+        {
+            "year": 2015,
+            "quantity": 494589,
+            "priceUSD": 247.9,
+            "totalValueUSD": 122608613.10000001
+        },
+        {
+            "year": 2014,
+            "quantity": 390364,
+            "priceUSD": 267.7,
+            "totalValueUSD": 104500442.8
+        },
+        {
+            "year": 2013,
+            "quantity": 506725,
+            "priceUSD": 229.8,
+            "totalValueUSD": 116445405.0
+        },
+        {
+            "year": 2012,
+            "quantity": 450535,
+            "priceUSD": 259.9,
+            "totalValueUSD": 117094046.49999999
+        },
+        {
+            "year": 2011,
+            "quantity": 356943,
+            "priceUSD": 267.2,
+            "totalValueUSD": 95375169.6
+        },
+        {
+            "year": 2010,
+            "quantity": 328000,
+            "priceUSD": null,
+            "totalValueUSD": null
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "country": "au",
+    "crop": "Rice",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 635113,
+            "priceUSD": 289.1,
+            "totalValueUSD": 183611168.3
+        },
+        {
+            "year": 2017,
+            "quantity": 807304,
+            "priceUSD": 239.9,
+            "totalValueUSD": 193672229.6
+        },
+        {
+            "year": 2016,
+            "quantity": 273942,
+            "priceUSD": 311.5,
+            "totalValueUSD": 85332933.0
+        },
+        {
+            "year": 2015,
+            "quantity": 690390,
+            "priceUSD": 296.7,
+            "totalValueUSD": 204838713.0
+        },
+        {
+            "year": 2014,
+            "quantity": 819276,
+            "priceUSD": 306.5,
+            "totalValueUSD": 251108094.0
+        },
+        {
+            "year": 2013,
+            "quantity": 1161115,
+            "priceUSD": 251.0,
+            "totalValueUSD": 291439865.0
+        },
+        {
+            "year": 2012,
+            "quantity": 918733,
+            "priceUSD": 279.6,
+            "totalValueUSD": 256877746.8
+        },
+        {
+            "year": 2011,
+            "quantity": 723283,
+            "priceUSD": 247.6,
+            "totalValueUSD": 179084870.79999998
+        },
+        {
+            "year": 2010,
+            "quantity": 196684,
+            "priceUSD": 419.2,
+            "totalValueUSD": 82449932.8
+        }
+    ]
+}

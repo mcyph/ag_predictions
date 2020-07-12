@@ -1,0 +1,61 @@
+{
+    "country": "us",
+    "crop": "Wheat",
+    "unit": "t",
+    "production": [
+        {
+            "year": 2018,
+            "quantity": 51286540,
+            "priceUSD": null,
+            "totalValueUSD": null
+        },
+        {
+            "year": 2017,
+            "quantity": 47379810,
+            "priceUSD": 169.0,
+            "totalValueUSD": 8007187890.0
+        },
+        {
+            "year": 2016,
+            "quantity": 62831507,
+            "priceUSD": 143.0,
+            "totalValueUSD": 8984905501.0
+        },
+        {
+            "year": 2015,
+            "quantity": 55839540,
+            "priceUSD": 180.0,
+            "totalValueUSD": 10051117200.0
+        },
+        {
+            "year": 2014,
+            "quantity": 55147120,
+            "priceUSD": 220.0,
+            "totalValueUSD": 12132366400.0
+        },
+        {
+            "year": 2013,
+            "quantity": 58104610,
+            "priceUSD": 252.0,
+            "totalValueUSD": 14642361720.0
+        },
+        {
+            "year": 2012,
+            "quantity": 61677384,
+            "priceUSD": 286.0,
+            "totalValueUSD": 17639731824.0
+        },
+        {
+            "year": 2011,
+            "quantity": 54418808,
+            "priceUSD": 266.0,
+            "totalValueUSD": 14475402928.0
+        },
+        {
+            "year": 2010,
+            "quantity": 60062408,
+            "priceUSD": 209.0,
+            "totalValueUSD": 12553043272.0
+        }
+    ]
+}
